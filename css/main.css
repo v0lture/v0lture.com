@@ -102,13 +102,13 @@ a.brand-logo {
   color: white;
 }
 
-.projectarray-mymu {
+.projectarray-muApp {
   background: #4caf50;
   color: black;
 }
 
-.projectarray-bugs {
-  background: #1976d2;
+.projectarray-vucket {
+  background: #607D8B;
   color: white;
 }
 
@@ -117,14 +117,14 @@ a.brand-logo {
   color: white;
 }
 
-.projectarray-veddit {
+.projectarray-prjRomeo {
   background: #f44336;
   color: white;
 }
 
-.projectarray-mc {
-  background: #795548;
-  color: white;
+.projectarray-v0lt {
+  background: #F4FF81;
+  color: black;
 }
 /* health colors */
 .health-good {
@@ -170,7 +170,10 @@ a.brand-logo {
 }
 
 .markdown-wrapper {
-  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   color: white;
 }
 
@@ -248,8 +251,10 @@ a.brand-logo {
 
 /* ad slots */
 .adblock {
-  padding: 40px;
-  background: rgba(255,255,255,0.05);
+  padding: 0px;
+  background: rgba(50,50,50,1);
   min-height: 10px;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }

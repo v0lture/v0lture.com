@@ -1,16 +1,10 @@
-<?php
-  require "php/news.php";
-  $n = new news();
-?>
-
 <!DOCTYPE html>
 <html>
-
   <head>
     <!-- SEO -->
-    <title>v0lture Solutions: Support</title>
+    <title>v0lture Solutions: Stats</title>
     <meta charset="utf-8">
-    <meta name="description" content="Get support v0lture Solutions and our products.">
+    <meta name="description" content="v0lture Solutions related statistics">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -29,18 +23,16 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
   </head>
-
   <body>
-
     <!-- status bar -->
     <div class="statusbar">
       <div class="left">
-        <a class="white-text">Support</a>
+        <a class="white-text">Statistics</a>
       </div>
       <div class="right">
         <a href="stats.php">v0lture Stats</a>
         <a href="support.php">Support</a>
-        <a href="https://client.v0lture.com">Client Panel</a>
+        <a href="https://client.v0lture.com">Client</a>
       </div>
     </div>
 
@@ -67,16 +59,16 @@
         </div>
       </nav>
     </div>
-
-    <!-- page content -->
-    <div class="markdown-wrapper">
-      <h4>Support via email</h4>
-      <p>Currently the only support we offer is when you contact us via our <a href="mailto:support@v0lture.com">support email</a></p>
-      <p>We are in the process of setting up a support ticketing system. We will update this page when it is ready</p>
+    <br />
+    <div align="center" class="white-text">
+      <img src="img/logo.png" alt="v0lture Solutions Logo" style="width:10%;height:10%;"/>
+      <h3>v0lture Solutions Statistics Panel</h3>
+      <p>v0lture Statics is currently under construction, please check back later. We are looking to provide as much transparency as we can.</p>
+      <p>Return to main site <a href="//v0lture.com">here</a></p>
     </div>
 
     <div class="adblock" align="center">
-  		<?php require "php/ad.php"; ?>
+      <?php require "php/ad.php"; ?>
     </div>
 
   </body>

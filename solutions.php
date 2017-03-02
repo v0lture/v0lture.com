@@ -1,16 +1,12 @@
-<?php
-  require "php/news.php";
-  $n = new news();
-?>
 
 <!DOCTYPE html>
 <html>
 
   <head>
     <!-- SEO -->
-    <title>v0lture Solutions: Support</title>
+    <title>v0lture Solutions: About</title>
     <meta charset="utf-8">
-    <meta name="description" content="Get support v0lture Solutions and our products.">
+    <meta name="description" content="About v0lture Solutions">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -35,7 +31,7 @@
     <!-- status bar -->
     <div class="statusbar">
       <div class="left">
-        <a class="white-text">Support</a>
+        <a class="white-text">Solutions</a>
       </div>
       <div class="right">
         <a href="stats.php">v0lture Stats</a>
@@ -70,14 +66,12 @@
 
     <!-- page content -->
     <div class="markdown-wrapper">
-      <h4>Support via email</h4>
-      <p>Currently the only support we offer is when you contact us via our <a href="mailto:support@v0lture.com">support email</a></p>
-      <p>We are in the process of setting up a support ticketing system. We will update this page when it is ready</p>
+      <p>Under some serious construction</p>
     </div>
 
-    <div class="adblock" align="center">
-  		<?php require "php/ad.php"; ?>
-    </div>
+	<div class="adblock" align="center">
+		<?php require "php/ad.php"; ?>
+  </div>
 
   </body>
 </html>

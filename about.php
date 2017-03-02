@@ -1,7 +1,3 @@
-<?php
-  require "php/news.php";
-  $n = new news();
-?>
 
 <!DOCTYPE html>
 <html>
@@ -26,6 +22,8 @@
     <script src="js/main.js"></script>
 
     <?php include "php/analytics.php"; ?>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
   </head>
 
   <body>
@@ -33,12 +31,12 @@
     <!-- status bar -->
     <div class="statusbar">
       <div class="left">
-        <a href="index.php" class="white-text">About</a>
+        <a class="white-text">About</a>
       </div>
       <div class="right">
-        <a href="health.php" class="green-text"><span class='white-text'>Server Status:</span> Healthy</a>
+        <a href="stats.php">v0lture Stats</a>
         <a href="support.php">Support</a>
-        <a href="https://client.v0lture.com">Client</a>
+        <a href="https://client.v0lture.com">Client Panel</a>
       </div>
     </div>
 
@@ -46,7 +44,7 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">v0lture <sub class="hide-on-med-and-down"><small>Solutions</small></sub></a>
+          <a href="index.php" class="brand-logo">v0lture <sub class="hide-on-med-and-down"><small>Solutions</small></sub></a>
           <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
           <!-- mobile nav -->
@@ -81,6 +79,10 @@
         If you would like to get in contact with us to request software or just want to talk, email us at <a href="mailto:contact@v0lture.com">contact@v0lture.com</a>. Our PGP key is available on our <a href="contact.php">contact page</a> if you'd like to contact us using that.
       </p>
     </div>
+
+	<div class="adblock" align="center">
+		<?php require "php/ad.php"; ?>
+  </div>
 
   </body>
 </html>

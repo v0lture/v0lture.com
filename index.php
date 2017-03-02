@@ -26,6 +26,8 @@
     <script src="js/main.js"></script>
 
     <?php include "php/analytics.php"; ?>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
   </head>
 
   <body>
@@ -33,9 +35,9 @@
     <!-- status bar -->
     <div class="statusbar">
       <div class="right">
-        <a href="health.php" class="green-text"><span class='white-text'>Server Status:</span> Healthy</a>
+        <a href="stats.php">v0lture Stats</a>
         <a href="support.php">Support</a>
-        <a href="https://client.v0lture.com">Client</a>
+        <a href="https://client.v0lture.com">Client Panel</a>
       </div>
     </div>
 
@@ -43,7 +45,7 @@
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">v0lture <sub class="hide-on-med-and-down"><small>Solutions</small></sub></a>
+          <a href="index.php" class="brand-logo">v0lture <sub class="hide-on-med-and-down"><small>Solutions</small></sub></a>
           <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
           <!-- mobile nav -->
@@ -64,79 +66,67 @@
     </div>
 
     <!-- project array -->
-    <div class="projectarray-wrapper">
-
-      <!-- projects -->
+    <div class="projectarray-wrapper" style="padding-top:5px;">
+	  <p style="color:white;padding:0px;font-size:24px;">Flagship Solutions</p>
+      <!-- Solutions -->
       <div class="row">
-
-        <a href="v0ltureDB/">
+        <a href="//github.com/v0lture/v0ltureDB">
           <div class="col s6 m4 l2">
             <div class="projectarray waves-effect waves-light projectarray-v0ltureDB z-depth-4">
               <p class="title">v0ltureDB</p>
-              <span class="version right hide-on-small-only">0.0.3</span>
-              <span class="desc">A web MySQL database manager</span>
+              <span class="version right hide-on-small-only">0.0.3.0</span>
+              <span class="desc">A web based MySQL database manager</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="//github.com/v0lture/My-Mu-Portal">
+          <div class="col s6 m4 l2">
+            <div class="projectarray waves-effect waves-light projectarray-muApp z-depth-4">
+              <p class="title">MU mobile app</p>
+              <span class="version right hide-on-small-only">0.0.1.2</span>
+              <span class="desc">An unoffical app to support students at Methodist University</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="//github.com/v0lture/vucket">
+          <div class="col s6 m4 l2">
+            <div class="projectarray waves-effect waves-light projectarray-vucket z-depth-4">
+              <p class="title">vucket</p>
+              <span class="version right hide-on-small-only">0.0.3.5</span>
+              <span class="desc">A bucket of various APIs used across v0lture Solutions</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="//v0.lt">
+          <div class="col s6 m4 l2">
+            <div class="projectarray waves-effect waves-light projectarray-v0lt z-depth-4">
+              <p class="title">v0lt</p>
+              <span class="version right hide-on-small-only">0.0.0.1</span>
+              <span class="desc">URL shortener currently in internal testing</span>
             </div>
           </div>
         </a>
 
         <div class="col s6 m4 l2">
-          <div class="projectarray waves-effect waves-light projectarray-mymu z-depth-4">
-            <p class="title">MyMu</p>
-            <span class="version right hide-on-small-only">0.1</span>
-            <span class="desc">An app for everything Methodist University</span>
+          <div class="projectarray projectarray-prjRomeo z-depth-4">
+            <p class="title">Project Romeo</p>
+            <span class="version right hide-on-small-only">SECRET</span>
+            <span class="desc">Internal project that will be released when ready</span>
           </div>
         </div>
 
         <div class="col s6 m4 l2">
-          <div class="projectarray waves-effect waves-light projectarray-vos z-depth-4">
+          <div class="projectarray projectarray-vos z-depth-4">
             <p class="title">vOS</p>
-            <span class="version right hide-on-small-only">0.0</span>
-            <span class="desc">The operating system by v0lture</span>
-          </div>
-        </div>
-
-        <div class="col s6 m4 l2">
-          <div class="projectarray waves-effect waves-light projectarray-bugs z-depth-4">
-            <p class="title">Bugs</p>
-            <span class="version right hide-on-small-only">0.0</span>
-            <span class="desc">v0lture's in-house bug tracker</span>
-          </div>
-        </div>
-
-        <div class="col s6 m4 l2">
-          <div class="projectarray waves-effect waves-light projectarray-veddit z-depth-4">
-            <p class="title">veddit</p>
-            <span class="version right hide-on-small-only">0.0.2</span>
-            <span class="desc">Material design facelift for Reddit</span>
-          </div>
-        </div>
-
-        <div class="col s6 m4 l2">
-          <div class="projectarray waves-effect waves-light projectarray-mc z-depth-4">
-            <p class="title">vPolice</p>
-            <span class="version right hide-on-small-only">0.0.0</span>
-            <span class="desc">Minecraft Police plugin</span>
+            <span class="version right hide-on-small-only">pre-release</span>
+            <span class="desc">An unreleased Linux distribution by v0lture Solutions</span>
           </div>
         </div>
 
       </div>
-
-      <br />
-
-      <div class="adblock" align="center">
-        <?php require "php/ad.php"; ?>
-      </div>
-
-      <!-- down arrow -->
-      <a href="#news">
-        <div class="projectarray-more hide-on-med-and-down">
-          <p>
-            More v0lture<br />
-            <i class="material-icons circle waves-effect waves-light">arrow_downward</i>
-          </p>
-        </div>
-      </a>
-    </div>
 
     <!-- news modal -->
     <div id="fullpost" class="modal modal-fixed-footer grey darken-2">
@@ -163,17 +153,19 @@
       </div>
     </div>
 
-
     <!-- news -->
-    <div class="news">
+	<p style="color:white;font-size:32px;">News</p>
+    <div class="news" style="padding-top:0px;">
       <a name="news"></a>
-
-      <div class="markdown-wrapper">
+      <div class="markdown-wrapper" style="padding-top:0px;">
         <?= $n->newsSnippets(); ?>
       </div>
-
-
     </div>
+  </div>
+
+	<div class="adblock" align="center">
+    <?php require "php/ad.php"; ?>
+  </div>
 
   </body>
 </html>
