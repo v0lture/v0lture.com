@@ -32,7 +32,7 @@
       <div class="right">
         <a href="stats.php">v0lture Stats</a>
         <a href="support.php">Support</a>
-        <a href="https://client.v0lture.com">Client</a>
+        <a href="https://client.v0lture.com">Client panel</a>
       </div>
     </div>
 
