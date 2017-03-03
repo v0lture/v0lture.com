@@ -64,9 +64,12 @@
       </nav>
     </div>
 
-    <!-- page content -->
-    <div class="markdown-wrapper">
-      <p>Under some serious construction</p>
+    <br />
+    <div align="center" class="white-text">
+      <img src="img/logo.png" alt="v0lture Solutions Logo" style="width:10%;height:10%;"/>
+      <h3>v0lture Solutions</h3>
+      <p>v0lture Solutions project list is currently under construction, please check back later.</p>
+      <p>Return to main site <a href="//v0lture.com">here</a></p>
     </div>
 
 	<div class="adblock" align="center">
