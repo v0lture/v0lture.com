@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +63,7 @@
       </nav>
     </div>
 
-    <br />
+<br />
     <div align="center" class="white-text">
       <img src="img/logo.png" alt="v0lture Solutions Logo" style="width:10%;height:10%;"/>
       <h3>v0lture Solutions</h3>
