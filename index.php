@@ -104,7 +104,7 @@
           <div class="col s6 m4 l2">
             <div class="projectarray waves-effect waves-light projectarray-v0lt z-depth-4">
               <p class="title">v0lt</p>
-              <span class="version right hide-on-small-only">0.0.0.1</span>
+              <span class="version right hide-on-small-only">0.1.0.0</span>
               <span class="desc">URL shortener currently in internal testing</span>
             </div>
           </div>
