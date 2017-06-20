@@ -1,0 +1,12 @@
+body {
+    background: #323232;
+    color: white;
+}
+
+.accent {
+    background: #4CAF50;
+}
+
+.accent-text {
+    color: #4CAF50;
+}
