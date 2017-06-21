@@ -1,6 +1,8 @@
-<title>v0lture Solutions, LLC</title>
+<title><?= $head["title"]; ?></title>
 <meta charset="utf8">
-<meta description="v0lture Solutions, LLC is a company that builds the solutions needed for your home, business, or enterprise.">
+<meta name="description" content="<?= $head["description"]; ?>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
 
 <!-- resources -->
 <script src="js/jquery.js"></script>
