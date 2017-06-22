@@ -24,7 +24,7 @@
                 <a href="solutions.php" class="btn-flat waves-effect waves-light accent-text">Solutions</a>
                 <a href="business.php" class="btn-flat waves-effect waves-light accent-text">For Business</a>
                 <a href="contact.php" class="btn-flat waves-effect waves-light accent-text">Contact Us</a>
-                <a href="client.php" class="btn-flat waves-effect waves-light accent-text">Client Area</a>
+                <a href="https://client.v0lture.com" class="btn-flat waves-effect waves-light accent-text">Client Area</a>
             </div>
         </div>
 
