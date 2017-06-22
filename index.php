@@ -46,13 +46,13 @@
             <h4 class="center-align thin">Our flagslip solutions</h4>
         </div>
 
-        <div class="row">
+        <div class="row hide-on-small-only">
 
-            <div class="col s12 m6">
+            <div class="col s6">
                 <div class="solution" style="background: url('img/v0.lt.png');"></div>
             </div>
 
-            <div class="col s12 m6">
+            <div class="col s6">
                 <div style="margin-top: 224px;">
                     <h4 class="thin">v0.lt <small><small>v0.1.0.0</small></small></h4>
                     <p>A super simple URL shortener. No tricks or gimmicks.</p>
@@ -63,9 +63,9 @@
 
         </div>
 
-        <div class="row">
+        <div class="row hide-on-small-only">
 
-            <div class="col s12 m6">
+            <div class="col s6">
                 <div style="margin-top: 224px;" class="right">
                     <h4 class="thin">v0ltureDB <small><small>v0.0.3.3</small></small></h4>
                     <p>A web-based management tool for MySQL databases.</p>
@@ -73,13 +73,24 @@
                 </div>
             </div>
 
-            <div class="col s12 m6">
+            <div class="col s6">
                 <div class="solution" style="background: url('img/v0ltureDB.png');"></div>
             </div>
 
         </div>
 
         <div class="row">
+
+            <div class="col s6 m3 hide-on-med-and-up" style="padding: 30px;">
+                <h5 class="thin">v0ltureDB</h5>
+                <p>A web-based management tool for MySQL databases.</p>
+            </div>
+
+            <div class="col s6 m3 hide-on-med-and-up" style="padding: 30px;">
+                <h5 class="thin">v0.lt</h5>
+                <p>A super simple URL shortener. No tricks or gimmicks.</p>
+                <a href="https://v0.lt" class="btn waves-effect waves-light accent white-text">Open</a>
+            </div>
             
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">My MU</h5>
@@ -98,7 +109,7 @@
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">vucket</h5>
                 <p>Open source API used within v0lture that powers business client areas.</p>
-                <a href="https://github.com/v0lture/vucket" class="btn-flat waves-effect waves-light accent-text hide-on-small-only">View Source Code</a>
+                <a href="https://github.com/v0lture/vucket" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
             </div>
 
             <div class="col s6 m3" style="padding: 30px;">
