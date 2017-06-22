@@ -30,23 +30,25 @@ a.accent:hover {
     left: 0;
     z-index: 1000;
     width: 100vw;
-    height: 92px;
+    height: 48px;
     background: rgba(0,0,0,0.45);
     padding: 15px 15px;
 }
 
 .vnavbar > span > img {
-    height: 64px;
+    height: 24px;
     width: auto;
+    margin-top: -5px;
 }
 
 .vnavbar > span > h4 {
-    margin-top: -57.5px;
-    margin-left: 72px;
+    margin-top: -30.5px;
+    margin-left: 38px;
+    font-size: 24px;
 }
 
 .vnavbar > .right {
-    margin-top: -50px;
+    margin-top: -44.5px;
 }
 
 /* landing */
