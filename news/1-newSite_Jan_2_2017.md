@@ -1,4 +1,0 @@
-### hello world
-#### *Alexander Hamilton* - January 2nd, 2017
-
-Welcome to the new website for v0lture Solutions. While this is the third big design change we've had in the last year or so, we think this one is going to stick because we have made a lot of new changes that we think are for the best. There are still a lot of tweaking that needs to be done and we are missing a few features we are looking to add, but this is basically it. I am hoping that someone will make a news post about once a week or so to keep everyone informed of changes that are made to our products or ourselves as a company. If you have any questions or comments, we are always available at contact@v0lture.com so don't hesitate to keep in touch. Our PGP key is available on the contact page if you would like to use it. The services we offer will also be up soon so you can look around.
