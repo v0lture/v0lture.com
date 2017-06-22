@@ -4,7 +4,7 @@
     <head>
         <?php 
             $head = Array(
-                "title" => "v0lture Solutions, LLC",
+                "title" => "Solutions from v0lture Solutions, LLC",
                 "desc" => "v0lture Solutions, LLC is a company that builds the solutions needed for your home, business, or enterprise."
             );
             require_once "layout/head.php"; 
@@ -117,6 +117,8 @@
             <a class="btn waves-effect waves-light vpurple white-text" href="mailto:contact@v0lture.com">Email us</a>
             <a class="btn waves-effect waves-light vpurple white-text" href="contact/v0ltureContact.asc">Get our PGP Key</a>
         </div>
+
+        <?php require_once "layout/intercom.php"; ?>
 
     </body>
 

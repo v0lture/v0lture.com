@@ -36,6 +36,8 @@
             <a class="btn waves-effect waves-light vpurple white-text" href="contact/v0ltureContact.asc">Get our PGP Key</a>
         </div>
 
+        <?php require_once "layout/intercom.php"; ?>
+
     </body>
 
 </html>

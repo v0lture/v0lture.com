@@ -33,7 +33,7 @@
             <p>We are a company dedicated to the creation and maintenance of high quality websites and software.<br />We are proud supporters of the Free Software Foundation so all software we make for ourselves will always remain free and open source, available on our GitHub.</p>
             <br /><br />
             <h5>How can we help your business?</h5>
-            <p>Learn more on how our cost effective and powerful services can empower your business on the button below.</p>
+            <p>Learn more on how our cost effective and powerful services can empower your business by clicking on the button below.</p>
             <a href="business.php" class="btn accent waves-effect waves-light white-text">Learn More</a>
 
             <div class="arrow center-align">
@@ -103,7 +103,7 @@
 
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">Project Junebug</h5>
-                <p>A JS and Firebase powered bug tracker for v0lture Solutions use.</p>
+                <p>A JS and Firebase powered bug tracker for v0lture Solutions' use.</p>
                 <a href="https://github.com/v0lture/project-junebug" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
                 <a href="https://bugs.v0lture.com" class="btn waves-effect waves-light accent white-text">Open</a>
             </div>
@@ -147,6 +147,8 @@
             <a class="btn waves-effect waves-light vpurple white-text" href="mailto:contact@v0lture.com">Email us</a>
             <a class="btn waves-effect waves-light vpurple white-text" href="contact/v0ltureContact.asc">Get our PGP Key</a>
         </div>
+
+        <?php require_once "layout/intercom.php"; ?>
 
     </body>
 
