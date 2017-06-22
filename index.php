@@ -50,9 +50,9 @@
                 <h4>We are v0lture.</h4>
                 <p>We are a company dedicated to the creation and maintenance of high quality websites and software.<br />We are proud supporters of the Free Software Foundation so all software we make for ourselves will always remain free and open source, available on our GitHub.</p>
                 <br /><br />
-                <h5>How can we help your business?</h5>
-                <p>Learn more on how our cost effective and powerful services can empower your business by clicking on the button below.</p>
-                <a href="business.php" class="btn accent waves-effect waves-light white-text">Learn More</a>
+                <h5 class="hide-on-small-only">How can we help your business?</h5>
+                <p class="hide-on-small-only">Learn more on how our cost effective and powerful services can empower your business by clicking on the button below.</p>
+                <a href="business.php" class="btn accent waves-effect waves-light white-text hide-on-small-only">Learn More</a>
 
                 <div class="arrow center-align">
                     <p>Scroll down to learn more about v0lture</p>
