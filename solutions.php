@@ -90,6 +90,7 @@
                 <div class="col s6 m3 hide-on-med-and-up" style="padding: 30px;">
                     <h5 class="thin">v0ltureDB</h5>
                     <p>A web-based management tool for MySQL databases.</p>
+                    <a href="https://github.com/v0lture/v0ltureDB" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
                 </div>
 
                 <div class="col s6 m3 hide-on-med-and-up" style="padding: 30px;">
