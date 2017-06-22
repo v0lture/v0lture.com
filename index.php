@@ -19,6 +19,10 @@
                 <h4>v0lture</h4>
             </span>
 
+            <div class="right hide-on-med-and-up">
+                <a href="index.php" class="btn-flat waves-effect waves-light accent-text">Menu</a>
+            </div>
+
             <div class="right hide-on-small-only">
                 <a href="index.php" class="btn waves-effect waves-light accent white-text">Home</a>
                 <a href="solutions.php" class="btn-flat waves-effect waves-light accent-text">Solutions</a>
@@ -43,7 +47,7 @@
         </div>
 
         <div class="landingsection">
-            <h4 class="center-align thin">Our flagslip solutions</h4>
+            <h4 class="center-align thin">Our flagship solutions</h4>
         </div>
 
         <div class="row hide-on-small-only">
@@ -146,7 +150,7 @@
             <div class="col s12 m4" style="padding: 30px;">
                 <h5 class="thin">Premium custom-made apps, websites, and software</h5>
                 <p>v0lture can create premium, while being cost effective, applications for your mobile users, websites for your brand and software for your staff.</p>
-                <a href="quote.php" class="btn waves-effect waves-light accent white-text">Get a quote</a>
+                <a href="business.php#pricing" class="btn waves-effect waves-light accent white-text">View packages</a>
             </div>
 
         </div>
