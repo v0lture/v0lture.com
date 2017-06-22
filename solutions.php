@@ -20,27 +20,15 @@
             </span>
 
             <div class="right hide-on-small-only">
-                <a href="index.php" class="btn waves-effect waves-light accent white-text">Home</a>
-                <a href="solutions.php" class="btn-flat waves-effect waves-light accent-text">Solutions</a>
+                <a href="index.php" class="btn-flat waves-effect waves-light accent-text">Home</a>
+                <a href="solutions.php" class="btn waves-effect waves-light accent white-text">Solutions</a>
                 <a href="business.php" class="btn-flat waves-effect waves-light accent-text">For Business</a>
                 <a href="contact.php" class="btn-flat waves-effect waves-light accent-text">Contact Us</a>
                 <a href="client.php" class="btn-flat waves-effect waves-light accent-text">Client Area</a>
             </div>
         </div>
 
-        <div class="landing center-align">
-            <h4>We are v0lture.</h4>
-            <p>We are a company dedicated to the creation and maintenance of high quality websites and software.<br />We are proud supporters of the Free Software Foundation so all software we make for ourselves will always remain free and open source, available on our GitHub.</p>
-            <br /><br />
-            <h5>How can we help your business?</h5>
-            <p>Learn more on how our cost effective and powerful services can empower your business on the button below.</p>
-            <a href="business.php" class="btn accent waves-effect waves-light white-text">Learn More</a>
-
-            <div class="arrow center-align">
-                <p>Scroll down to learn more about v0lture</p>
-                <i class="material-icons">arrow_downward</i>
-            </div>
-        </div>
+        <div style="height: 72px"></div>
 
         <div class="landingsection">
             <h4 class="center-align thin">Our flagslip solutions</h4>
@@ -108,41 +96,23 @@
                 <a href="https://bugs.v0lture.com" class="btn waves-effect waves-light accent white-text">Open</a>
             </div>
 
-            <div class="center-align">
-                <a href="solutions.php" class="btn-flat waves-effect waves-lght accent-text">View all of our solutions</a>
+            <div class="col s6 m3" style="padding: 30px;">
+                <h5 class="thin">Project Sharon</h5>
+                <p>An application for remotely managing computer applications, information, and data.</p>
+                <a href="https://github.com/v0lture/project-sharon" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
             </div>
 
-        </div>
-
-        <div class="landingsection">
-            <h4 class="center-align thin">v0lture for your Business</h4>
-        </div>
-
-        <div class="row">
-            
-            <div class="col s12 m4" style="padding: 30px;">
-                <h5 class="thin">Marketing</h5>
-                <p>Our marketing team can help you manage advertising campaigns on various services and your search engine ranking for any websites built with us.</p>
-                <a href="business.php#marketing" class="btn waves-effect waves-light accent white-text">View marketing details</a>
-            </div>
-
-            <div class="col s12 m4" style="padding: 30px;">
-                <h5 class="thin">Pay only for what you need</h5>
-                <p>Our modular packages and scaled pricing helps you save money by not wasting your budget on addons or packages you don't need.</p>
-                <a href="business.php#pricing" class="btn waves-effect waves-light accent white-text">View pricing details</a>
-            </div>
-
-            <div class="col s12 m4" style="padding: 30px;">
-                <h5 class="thin">Premium custom-made apps, websites, and software</h5>
-                <p>v0lture can create premium, while being cost effective, applications for your mobile users, websites for your brand and software for your staff.</p>
-                <a href="quote.php" class="btn waves-effect waves-light accent white-text">Get a quote</a>
+            <div class="col s6 m3" style="padding: 30px;">
+                <h5 class="thin">Project Zinc</h5>
+                <p><b>Unreleased</b> &mdash; An application for monitoring your workflow and integrating your apps and tools.</p>
+                <a href="https://github.com/v0lture/project-zinc" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
             </div>
 
         </div>
 
         <div class="contactsection center-align">
             <h4 class="thin">Let's get in touch</h4>
-            <p>Want to get in touch about using v0lture for your business? Contact us in the various forms below.</p>
+            <p>Want v0lture to custom build a solution for your business's problem, let us know and we can get started.</p>
             <a class="btn waves-effect waves-light vpurple white-text" href="https://medium.com/v0lture-solutions-llc">Read our blog</a>
             <a class="btn waves-effect waves-light vpurple white-text" href="mailto:contact@v0lture.com">Email us</a>
             <a class="btn waves-effect waves-light vpurple white-text" href="contact/v0ltureContact.asc">Get our PGP Key</a>
