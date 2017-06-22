@@ -48,11 +48,11 @@
 
         <div class="row">
 
-            <div class="col s6">
+            <div class="col s12 m6">
                 <div class="solution" style="background: url('img/v0.lt.png');"></div>
             </div>
 
-            <div class="col s6">
+            <div class="col s12 m6">
                 <div style="margin-top: 224px;">
                     <h4 class="thin">v0.lt <small><small>v0.1.0.0</small></small></h4>
                     <p>A super simple URL shortener. No tricks or gimmicks.</p>
@@ -65,7 +65,7 @@
 
         <div class="row">
 
-            <div class="col s6">
+            <div class="col s12 m6">
                 <div style="margin-top: 224px;" class="right">
                     <h4 class="thin">v0ltureDB <small><small>v0.0.3.3</small></small></h4>
                     <p>A web-based management tool for MySQL databases.</p>
@@ -73,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="col s6">
+            <div class="col s12 m6">
                 <div class="solution" style="background: url('img/v0ltureDB.png');"></div>
             </div>
 
@@ -84,27 +84,27 @@
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">My MU</h5>
                 <p>An unofficial app to support students at Methodist University</p>
-                <a href="https://github.com/v0lture/MU_Mobile_Android_App" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
+                <a href="https://github.com/v0lture/MU_Mobile_Android_App" class="btn-flat waves-effect waves-light accent-text hide-on-small-only">View Source Code</a>
                 <a href="https://play.google.com/store/apps/details?id=com.v0lture.deAngelo.mymu" class="btn waves-effect waves-light accent white-text">Play Store</a>
             </div>
 
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">v0lture Solutions App</h5>
                 <p>The app for everything v0lture Solutions. Announcements, our team, and more.</p>
-                <a href="https://github.com/v0lture/v0lture_Solutions_App" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
+                <a href="https://github.com/v0lture/v0lture_Solutions_App" class="btn-flat waves-effect waves-light accent-text hide-on-small-only">View Source Code</a>
                 <a href="https://play.google.com/store/apps/details?id=com.apps.v0lture.v0lture_solutions" class="btn waves-effect waves-light accent white-text">Play Store</a>
             </div>
 
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">vucket</h5>
                 <p>Open source API used within v0lture that powers business client areas.</p>
-                <a href="https://github.com/v0lture/vucket" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
+                <a href="https://github.com/v0lture/vucket" class="btn-flat waves-effect waves-light accent-text hide-on-small-only">View Source Code</a>
             </div>
 
             <div class="col s6 m3" style="padding: 30px;">
                 <h5 class="thin">Project Junebug</h5>
                 <p>A JS and Firebase powered bug tracker for v0lture Solutions' use.</p>
-                <a href="https://github.com/v0lture/project-junebug" class="btn-flat waves-effect waves-light accent-text">View Source Code</a>
+                <a href="https://github.com/v0lture/project-junebug" class="btn-flat waves-effect waves-light accent-text hide-on-small-only">View Source Code</a>
                 <a href="https://bugs.v0lture.com" class="btn waves-effect waves-light accent white-text">Open</a>
             </div>
 
