@@ -20,6 +20,7 @@
             </span>
 
             <div class="right hide-on-small-only">
+                <a href="index.php" class="btn waves-effect waves-light accent white-text">Home</a>
                 <a href="solutions.php" class="btn-flat waves-effect waves-light accent-text">Solutions</a>
                 <a href="business.php" class="btn-flat waves-effect waves-light accent-text">For Business</a>
                 <a href="contact.php" class="btn-flat waves-effect waves-light accent-text">Contact Us</a>
@@ -128,13 +129,13 @@
             <div class="col s12 m4" style="padding: 30px;">
                 <h5 class="thin">Pay only for what you need</h5>
                 <p>Our modular packages and scaled pricing helps you save money by not wasting your budget on addons or packages you don't need.</p>
-                <a href="business.php#marketing" class="btn waves-effect waves-light accent white-text">View pricing details</a>
+                <a href="business.php#pricing" class="btn waves-effect waves-light accent white-text">View pricing details</a>
             </div>
 
             <div class="col s12 m4" style="padding: 30px;">
                 <h5 class="thin">Premium custom-made apps, websites, and software</h5>
                 <p>v0lture can create premium, while being cost effective, applications for your mobile users, websites for your brand and software for your staff.</p>
-                <a href="business.php#marketing" class="btn waves-effect waves-light accent white-text">Get a quote</a>
+                <a href="quote.php" class="btn waves-effect waves-light accent white-text">Get a quote</a>
             </div>
 
         </div>
