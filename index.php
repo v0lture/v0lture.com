@@ -15,8 +15,9 @@
 
         <div class="vnavbar">
             <span>
-                <img src="img/logo.png" alt="v0lture Logo"></img>
-                <h4>v0lture</h4>
+                <div class="blacksquarelogo"></div>
+                <!--<img src="img/logo.png" alt="v0lture Logo"></img>-->
+                <!--<h4>v0lture</h4>-->
             </span>
 
             <div class="right hide-on-med-and-up">
@@ -24,11 +25,11 @@
             </div>
 
             <div class="right hide-on-small-only">
-                <a href="index.php" class="btn waves-effect waves-light accent white-text">Home</a>
-                <a href="solutions.php" class="btn-flat waves-effect waves-light accent-text">Solutions</a>
-                <a href="business.php" class="btn-flat waves-effect waves-light accent-text">For Business</a>
-                <a href="contact.php" class="btn-flat waves-effect waves-light accent-text">Contact Us</a>
-                <a href="https://client.v0lture.com" class="btn-flat waves-effect waves-light accent-text">Client Area</a>
+                <a href="index.php" class="btn-flat waves-effect waves-light white-text">Home</a>
+                <a href="solutions.php" class="btn-flat waves-effect waves-light white-text">Solutions</a>
+                <a href="business.php" class="btn-flat waves-effect waves-light white-text">For Business</a>
+                <a href="contact.php" class="btn-flat waves-effect waves-light white-text">Contact Us</a>
+                <a href="https://client.v0lture.com" class="btn-flat waves-effect waves-light white-text">Client Area</a>
             </div>
         </div>
 
@@ -47,16 +48,12 @@
 
         <div id="appui">
             <div class="landing center-align">
-                <h4>We are v0lture.</h4>
-                <p>We are a company dedicated to the creation and maintenance of high quality websites and software.<br />We are proud supporters of the Free Software Foundation so all software we make for ourselves will always remain free and open source, available on our GitHub.</p>
-                <br /><br />
-                <h5 class="hide-on-small-only">How can we help your business?</h5>
-                <p class="hide-on-small-only">Learn more on how our cost effective and powerful services can empower your business by clicking on the button below.</p>
-                <a href="business.php" class="btn accent waves-effect waves-light white-text hide-on-small-only">Learn More</a>
-
-                <div class="arrow center-align">
-                    <p>Scroll down to learn more about v0lture</p>
-                    <i class="material-icons">arrow_downward</i>
+                <div class="box">
+                    <div class="blacksquarelogo"></div>
+                    <h4 class="thick">Welcome to v0lture Solutions</h4>
+                    <p>lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem</p>
+                    <h5 class="hide-on-small-only">Let's help you</h5>
+                    <a href="business.php" class="btn waves-effect waves-light black-text" style="background: #fafafa;">Our Solutions</a>
                 </div>
             </div>
 

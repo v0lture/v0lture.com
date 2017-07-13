@@ -1,6 +1,9 @@
 body {
-    background: #323232;
-    color: white;
+    color: #373737;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    background: #eee;
+    background-image: url("../img/bg.png");
 }
 
 .accent {
@@ -23,6 +26,10 @@ a.accent:hover {
     color: #0197F6;
 }
 
+.black-text {
+    color: #373737;
+}
+
 /* custom navbar */
 .vnavbar {
     position: fixed;
@@ -31,14 +38,22 @@ a.accent:hover {
     z-index: 1000;
     width: 100vw;
     height: 48px;
-    background: rgba(0,0,0,0.45);
-    padding: 15px 15px;
+    background: #CECECE;
+    padding: 15px 7.5px;
 }
 
-.vnavbar > span > img {
+/*.vnavbar > span > img {
     height: 24px;
     width: auto;
     margin-top: -5px;
+}*/
+
+.vnavbar > span > .blacksquarelogo {
+    height: 36px;
+    width: 36px;
+    background: #373737;
+    margin-top: -10px;
+    border-radius: 7.5px;
 }
 
 .vnavbar > span > h4 {
@@ -48,14 +63,29 @@ a.accent:hover {
 }
 
 .vnavbar > .right {
-    margin-top: -44.5px;
+    margin-top: -35.5px;
+    margin-right: 15px;
 }
 
 /* landing */
 .landing {
     height: 100vh;
-    background: linear-gradient(to bottom, #9233AF, #323232);
-    padding: 64px 64px;
+    /*background: linear-gradient(to bottom, #9233AF, #323232);*/
+    padding: 72px 192px;
+}
+
+.landing > .box {
+    background: white;
+    padding: 45px 192px;
+}
+
+.landing > .box > .blacksquarelogo {
+    background: #373737;
+    height: 256px;
+    width: 256px;
+    margin-left: calc(50% - 128px);
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .contactsection {
@@ -87,6 +117,10 @@ a.accent:hover {
     font-weight: 300;
 }
 
+.thick {
+    font-weight: 900;
+}
+
 .solution {
     height: 512px;
     width: 100%;
@@ -95,4 +129,14 @@ a.accent:hover {
 
 .landingsection {
     margin: 72px 0 32px 0;
+}
+
+/* materialize tweaks */
+.btn, .btn-large, .btn-flat {
+    padding: 0 1rem;
+    text-transform: none;
+}
+
+.btn, .btn-large, .btn-floating, .btn-large, .btn-flat {
+    font-size: 0.95rem;
 }
