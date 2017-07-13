@@ -50,7 +50,7 @@
             <div class="landing center-align">
                 <div class="box">
                     <div class="blacksquarelogo"></div>
-                    <h4 class="thick">Welcome to v0lture Solutions</h4>
+                    <h4 class="thick">Welcome to a better step forward</h4>
                     <p>lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem</p>
                     <h5 class="hide-on-small-only">Let's help you</h5>
                     <a href="business.php" class="btn waves-effect waves-light black-text" style="background: #fafafa;">Our Solutions</a>
