@@ -55,6 +55,8 @@
                     <h5 class="hide-on-small-only">Let's help you</h5>
                     <a href="business.php" class="btn waves-effect waves-light black-text" style="background: #fafafa;">Our Solutions</a>
                 </div>
+
+                <div class="box-shadow"></div>
             </div>
 
             <div class="landingsection">
