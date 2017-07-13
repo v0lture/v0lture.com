@@ -1,6 +1,6 @@
 body {
     color: #373737;
-    font-family: "Lato", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 400;
     background: #eee;
     background-image: url("../img/bg.png");
@@ -81,10 +81,11 @@ a.accent:hover {
 
 .landing > .box > .blacksquarelogo {
     background: #373737;
-    height: 256px;
-    width: 256px;
-    margin-left: calc(50% - 128px);
+    height: 320px;
+    width: 320px;
+    margin-left: calc(50% - 160px);
     border-radius: 10px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 
@@ -118,7 +119,7 @@ a.accent:hover {
 }
 
 .thick {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .solution {
